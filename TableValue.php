@@ -1,7 +1,7 @@
 <?php
 $serverName = 'localhost';
 $userName = 'root';
-$userPassword = 'root';
+$userPassword = '';
 $dbName = 'finaldb'; // its created on dbcreation.php file
 
 $connection = mysqli_connect($serverName, $userName, $userPassword, $dbName);
