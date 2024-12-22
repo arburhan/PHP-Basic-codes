@@ -1,0 +1,5 @@
+let, const, var এর মধ্যে পার্থক্ক্য কি?
+DOM কি?
+কত ভাবে js এ আউটপুট দেখা যায় ? 
+- document.write(), console.log(), innerHTML, window.alert()
+DOM Tree আঁক । 
