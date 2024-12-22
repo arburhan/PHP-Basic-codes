@@ -10,8 +10,12 @@ if(!$connection){
     die('connection failed'. mysqli_connect_error());
 }
 else{
-    mysqli_query($connection, $dbSQL);
-    echo 'successfully database created';
+    if(mysqli_query($connection, $dbSQL)){
+        echo 'successfully database created';
+    }
+    else{
+        echo 'error: '.mysqli_error($connection);
+    }
 }
 
 
